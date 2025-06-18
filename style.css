@@ -1,0 +1,60 @@
+  body {
+      font-family: sans-serif;
+      background: #bdbdbd;
+      padding: 20px;
+    }
+
+    .autocomplete-container {
+      position: relative;
+      width: 400px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    .suggestions {
+      position: absolute;
+      width: 100%;
+      background: white;
+      border: 1px solid #000;
+      max-height: 200px;
+      overflow-y: auto;
+      z-index: 10;
+    }
+
+    .suggestion-item {
+      padding: 10px;
+      border-bottom: 1px solid #000;
+      cursor: pointer;
+      background: #ddd;
+    }
+
+    .suggestion-item:hover {
+      background: #4fc3f7;
+    }
+
+    .repo-list {
+      margin-top: 20px;
+      width: 400px;
+    }
+
+    .repo-item {
+      background: violet;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #000;
+      position: relative;
+    }
+
+    .delete-btn {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      color: red;
+      font-weight: 100;
+      font-size: 56px;
+      cursor: pointer;
+    }
